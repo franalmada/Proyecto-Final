@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon.jpg" type="image/x-icon">
+  <title>Juego de Preguntas y Respuestas</title>
+</head>
+<body>
+  <div id="contenedor-juego">
+    <h1>Preguntas y Respuestas</h1>
+    <div id="contenedor-categorias"></div>
+    <h2 id="pregunta"></h2>
+    <div id="contenedor-opciones" class="opciones"></div>
+    <p id="puntuacion">Puntuación: <span id="valor-puntuacion">0</span></p>
+    <button id="boton-reinicio" onclick="reiniciarJuego()" style="display: none;">Volver a Inicio</button>
+  </div>
+
+  <script src="preguntas.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#quiz-container {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#results-container {
+    display: none;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+#contenedor-juego {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+
+.opciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#contenedor-juego button {
+  margin-top: 20px;
+}
+
+/* ... (otros estilos) ... */
+
+#contenedor-juego button#boton-reinicio {
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: none; /* Inicialmente oculto */
+  margin: 0 auto; /* Para centrar horizontalmente */
+}
+
+#contenedor-juego button#boton-reinicio:hover {
+  background-color: #2980b9;
+}
+
+/* ... (otros estilos) ... */
+
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px 24px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  flex: 1;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* ... (otros estilos) ... */
+
+.resultado {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.resultado {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.resultado p {
+  margin: 5px 0;
+}
+
+.resultado p:first-child {
+  font-weight: bold; /* Aplicar negrita solo a la primera línea (pregunta) */
+}
+
+#puntuacion {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #555;
+}
